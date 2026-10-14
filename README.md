@@ -20,3 +20,13 @@ Open `index.html` in a browser. Google Fonts requires internet access; fallback 
 
 ## Notes
 The existing website is NOT automatically changed by this package. Course fees and batch dates are intentionally not invented. The website does not collect form data; enquiries go directly to WhatsApp.
+
+
+Logo update: the top navigation and footer now display assets/vision-logo-header.png instead of the placeholder V. mark. The homepage hero uses assets/vision-logo.png and the duplicate caption has been removed. Upload all files including the new image.
+
+
+## Google Business Profile section
+- Added an official Google Business Profile QR sticker from the supplied PDF (assets/google-business-qr.png).
+- The QR is for viewing the business profile, not necessarily a direct review-writing link.
+- The 5.0 / 579 rating is a dated snapshot from the owner's 14 Oct 2026 screenshot, not a live feed. Update or remove the count if it changes.
+- Verify that the QR opens the correct profile by scanning with a phone before publishing.
