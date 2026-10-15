@@ -1,26 +1,22 @@
-# Vision Trading Academy — Trading Platform Redesign
+# Vision Trading Academy — Website update
 
-A complete static GitHub Pages website (HTML, CSS, vanilla JavaScript, PNG assets). No build process, frameworks, paid hosting, or API keys required.
+This package contains the **complete GitHub Pages site**.
 
-## What's new
-- Completely redesigned trading-platform layout, not a color-only refresh
-- Animated red/green **illustrative** candlestick chart in the hero (not live market data)
-- Scroll-triggered reveals, moving topics ticker, hover animations, sticky nav, scroll-progress bar
-- New learning cards, orange 15-Day Masterclass panel, roadmap, process board
-- Google review snapshot (5.0 / 579 reviews as of Oct 14, 2026) and QR asset
-- Green WhatsApp icon and working enquiry links
-- Correct email: workvisiontradingacademy@gmail.com
-- In-person classes in Kolhapur only
-- Responsive layout, reduced-motion support
+## Changes
+- Correct WhatsApp logo (phone inside speech bubble), and green WhatsApp enquiry button.
+- Natural, practical Forex course copy (candlesticks, pips, spreads, support/resistance, risk-to-reward).
+- Added interactive FAQ accordion answering real student questions.
+- Existing animated red/green illustrative chart, brand colors, logo, Google profile QR and reviews retained.
+- Email: workvisiontradingacademy@gmail.com.
+- In-person only, Kolhapur.
 
 ## Preview
-Extract the ZIP **fully** before opening `index.html`. Do not preview from inside WinRAR. For the best preview, use VS Code Live Server or upload to a test branch.
+Extract the whole ZIP before opening `index.html` (do not preview inside WinRAR).
 
-## Publish to GitHub Pages
-1. Back up your current repository.
-2. Extract this ZIP.
-3. Replace `index.html` and the `assets/` folder contents in the repository `visiontradingacademy/visiontradingacademy`.
-4. Commit the changes; wait for the Pages workflow to finish.
-5. Open https://visiontradingacademy.github.io/visiontradingacademy/ and hard refresh (Ctrl+Shift+R).
+## Publish
+1. Back up the existing GitHub repository.
+2. Upload `index.html` and all files inside `assets/` preserving their folder names.
+3. Commit changes; wait for GitHub Pages Actions deployment to succeed.
+4. Open https://visiontradingacademy.github.io/visiontradingacademy/ and hard refresh.
 
-The chart is decorative and **does not** show live Forex data or imply trading performance. The Google rating is a dated snapshot and should be updated if the public rating changes.
+The candlestick animation is educational artwork, **not live prices or signals**. Review counts are a dated snapshot, not live data.
