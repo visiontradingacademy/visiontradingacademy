@@ -1,13 +1,15 @@
-# Vision Trading Academy — Google QR layout fix
+# Vision Trading Academy — Premium Website Update
 
-This is a complete copy of the website repository files.
+## Changes
+- Business email updated everywhere to workvisiontradingacademy@gmail.com (including structured data and mailto).
+- Refined premium black/orange design, stronger typography, cards, buttons, spacing, Google reviews and mobile styling.
+- Retained existing brand logos, red/green candlestick chart, Google QR code, green WhatsApp button, and in-person Kolhapur positioning.
 
-Changes:
-- Replaced the badly cropped Google sticker with a clean, scannable QR image (same file path).
-- Centered the QR on a compact white card without cut marks or oversized margins.
-- Explicitly made “Discover Vision” white and “on Google” orange for readability.
-- Preserved the red/green animated candlestick chart, green WhatsApp button, logos, and all other content.
+## Publish on GitHub Pages
+1. Extract this ZIP fully (do not preview from inside WinRAR).
+2. Back up the existing GitHub repository.
+3. Replace `index.html`, `assets/style.css`, and the other included files in `visiontradingacademy/visiontradingacademy`.
+4. Commit changes and wait for GitHub Pages to finish deploying.
+5. Open https://visiontradingacademy.github.io/visiontradingacademy/ and hard-refresh with Ctrl+Shift+R.
 
-To publish: extract the ZIP, then upload/replace index.html and assets/style.css and assets/google-business-qr.png in your GitHub repository. Do not upload the ZIP as a single file. Commit, wait for Pages deployment, then refresh with Ctrl+Shift+R.
-
-If previewing locally, extract the entire ZIP first and open index.html from the extracted folder. Avoid opening index.html directly inside WinRAR.
+This package is a website file update; it does not modify the live repository automatically.
