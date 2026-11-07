@@ -1,32 +1,21 @@
-VISION TRADING ACADEMY — WEBSITE UPDATE
+VISION TRADING ACADEMY — PREMIUM MOTION UPGRADE
 
-Updated files:
-  index.html
-  assets/style.css
-  assets/script.js
+This package is an ADD-ON for your CURRENT live GitHub Pages website.
+It does not replace index.html, and therefore preserves your latest content.
 
-WHAT CHANGED
-- Hero now says FOREX EDUCATION · KOLHAPUR (no online classes).
-- Subtle animated chart and candlesticks behind the hero.
-- Green floating WhatsApp button with recognizable icon.
-- Google Reviews heading is white and orange, legible on dark background.
-- Google Business QR section and existing logo image references preserved.
-- Responsive/mobile styling and reduced-motion support.
+1. Upload the two files from the assets folder to your repository's assets folder:
+   assets/premium-effects.css
+   assets/premium-effects.js
 
-IMPORTANT — KEEP YOUR EXISTING IMAGE ASSETS
-This ZIP contains the updated text/code files, not your existing image assets.
-Keep these files already in your GitHub repository under assets/:
-  vision-logo.png
-  vision-logo-header.png
-  google-business-qr.png
-  favicon.png
+2. Edit the CURRENT index.html in GitHub.
+   Immediately BEFORE </head> add:
+   <link rel="stylesheet" href="assets/premium-effects.css">
 
-TO PUBLISH
-1. Back up your GitHub repository first.
-2. Open https://github.com/visiontradingacademy/visiontradingacademy
-3. Replace index.html and assets/style.css and assets/script.js with these files.
-4. Do NOT delete the other existing files or the assets image files.
-5. Commit changes; check Actions for successful GitHub Pages deployment.
-6. Refresh your live site using Ctrl+Shift+R.
+   Immediately BEFORE </body> add:
+   <script defer src="assets/premium-effects.js"></script>
 
-Website: https://visiontradingacademy.github.io/visiontradingacademy/
+3. Commit changes, wait for Pages deployment, then hard-refresh (Ctrl+F5).
+
+Includes decorative animated bull/bear vectors, floating chart, moving ticker,
+hover effects, glow and new single-program CTA. No image generation or
+external paid dependencies. Animations honor reduced-motion preferences.
